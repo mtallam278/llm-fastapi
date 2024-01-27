@@ -1,0 +1,24 @@
+    1  ls
+    2  whoami
+    3  pwd
+    4  help
+    5  mkdir backend
+    6  cd backend
+    7  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/backend/requirements.txt
+    8  ls
+    9  cat requirements.txt
+   10  pip install requirements.txt
+   11  pip install -r requirements.txt
+   12  ls
+   13  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/backend/main.py
+   14  ls
+   15  pip install -r requirements.txt
+   16  curl -X 'GET'   'https://8000-mtallam278-llmfastapi-g7f1phrl4py.ws-us107.gitpod.io/'   -H 'accept: application/json'
+   17  curl -X 'POST'   'https://8000-mtallam278-llmfastapi-g7f1phrl4py.ws-us107.gitpod.io/get_gemini_completion'   -H 'accept: application/json'   -H 'Content-Type: application/x-www-form-urlencoded'   -d 'gemini_api_key=AIzaSyDNxJ56rAGbZzEGegtuNXBHksLJ4EXkMyc&prompt=When%20is%20the%20next%20full%20solar%20eclipse%20in%20us'
+   18  pwd
+   19  git add .
+   20  git commit -m "this is my first commit
+"
+   21  git push
+   22  pwd
+   23  history  > list-of-commands.txt
