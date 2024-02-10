@@ -1,0 +1,65 @@
+    1  pwd
+    2  cd backend/
+    3  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/backend/Dockerfile
+    4  docker build -t llm
+    5  docker build -t llm .
+    6  docker run -p 8000:8000 llm
+    7  cd ..
+    8  pwd
+    9  npx create-react-app frontend
+   10  cd frontend/
+   11  pwd
+   12  npm start
+   13  cd $GITPOD_REPO_ROOT/frontend/src
+   14  pwd
+   15  ls
+   16  ls -la
+   17  rm -f App.js
+   18  rm -f App.css 
+   19  ls -la
+   20  rm -f index.js
+   21  ls
+   22  rm -f environment.js
+   23  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.css
+   24  ls
+   25  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.js
+   26  ls
+   27  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/environment.js
+   28  ls
+   29  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/src/index.js
+   30  ls
+   31  cd $GITPOD_REPO_ROOT
+   32  pwd
+   33  cd frontend/
+   34  cd $GITPOD_REPO_ROOT
+   35  pwd
+   36  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/update_url.sh
+   37  chmod +x update_url.sh
+   38  ls -la update_url.sh 
+   39  ./update_url.sh 
+   40  cd $GITPOD_REPO_ROOT/frontend
+   41  pwd
+   42  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/Dockerfile
+   43  docker build -t react-frontend .
+   44  docker run -p 3000:3000 react-frontend
+   45  cd $GITPOD_REPO_ROOT
+   46  pwd
+   47  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/docker-compose.yml
+   48  docker compose build
+   49  docker compose up
+   50  docker compose build
+   51  docker compose up
+   52  docker compose build
+   53  docker compose up
+   54  docker compose build
+   55  docker compose up
+   56  pwd
+   57  git add .
+   58  git commit ''frontend-backend-app'
+   59  git commit -m 'fronend-backend-app'
+   60  git push
+   61  history > 10-07-2024 commands1.txt
+   62  pwd
+   63  touch start.sh
+   64  ls
+   65  history >> commands1.txt
